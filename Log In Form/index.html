@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Log In Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button class="toggle-btn" type="button" onclick="login()">Log In</button>
+                    <button class="toggle-btn" type="button" onclick="register()">Register</button>
+                </div>
+                <div class="social">
+                    <img src="images/fb.png" alt="" />
+                    <img src="images/gp.png" alt="" />
+                    <img src="images/tw.png" alt="" />
+                </div>
+                <div id="login" class="input">
+                    <input type="text" class="input-field" placeholder="User Id"
+                        required />
+                    <input type="text" class="input-field"
+                        placeholder="Password" required />
+                    <input type="checkbox" class="check-box" /><span>Remember
+                        Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </div>
+                <div id="register" class="input">
+                    <input type="text" class="input-field" placeholder="User Id"
+                        required />
+                    <input type="email" class="input-field" placeholder="Email"
+                        required />
+                    <input type="text" class="input-field"
+                        placeholder="Password" required />
+                    <input type="checkbox" class="check-box" /><span>I Agree To
+                        The Terms</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="code.js"></script>
+    </body>
+
+</html>
